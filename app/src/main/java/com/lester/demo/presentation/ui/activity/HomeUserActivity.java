@@ -48,7 +48,7 @@ public class HomeUserActivity extends BaseActivity implements UserAdapter.Callba
 
     private int currentPage = PaginationListener.PAGE_START;
     private boolean isLastPage = false;
-    private final int TOTAL_PER_PAGE = 10;
+    private final int TOTAL_PER_PAGE = 50;
     private boolean isLoading = false;
 
     private SearchView searchView = null;
